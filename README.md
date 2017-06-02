@@ -13,12 +13,7 @@ There is no code for the UI (it is built using the Unity GUI); a portion of the 
 https://drive.google.com/file/d/0BxlX8gnBsVrcQkNIam9kRnZnOUE/view?usp=sharing
 
 
-## Installation
 
-* Clone the Repo in a directory of your choosing
-```bash
-$  git clone https://github.com/eecs394-s17/stroke_survivor_app.git
-```
 
 ## Quickstart
 
@@ -74,9 +69,8 @@ https://firebase.google.com/docs/database/unity/start
 
 The basic Firebase installation is done. 
 
-For an example of how the API has been applied to use Firebase functions based on post-Firebase-login data, look below (note the imports and initializeFirebase() function in particular):
+Examine the GameDashboard.cs file to see how Firebase and its user data (based on user login) is used
 
-https://github.com/eecs394-s17/stroke_survivor_app/blob/master/Assets/scripts/GameManager.cs
 
 * If you would like access to Stroke Survivor's firebase console, please email chankyuoh2018@u.northwestern.edu with the non-Northwestern google email you would like access for (Northwestern emails don't have access to Firebase)
 
